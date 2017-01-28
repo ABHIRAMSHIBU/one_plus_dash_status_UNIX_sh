@@ -44,5 +44,5 @@ do
 	echo $command_current_max_message$(cat $command_current_max)
 	echo $command_current_now_message$(cat $command_current_now)
 	echo $command_status_message$(cat $command_status)
-	sleep 0.1
+	sleep 0.4
 done
