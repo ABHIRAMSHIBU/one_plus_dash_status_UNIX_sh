@@ -4,17 +4,17 @@ then
 	exit
 fi
 main_out="DASH status program, Abhiram Shibu"
-command_starting="/sys/devices/soc/qpnp-smbcharger-17/power_supply/battery/fastchg_starting"
+command_starting="/sys/class/power_supply/battery/fastchg_starting"
 command_starting_message="Dash charging started :"
-command_dash_status="/sys/devices/soc/qpnp-smbcharger-17/power_supply/battery/fastchg_status"
+command_dash_status="/sys/class/power_supply/battery/fastchg_status"
 command_dash_status_message="Dash charging :"
-command_current_limit="/sys/devices/soc/qpnp-smbcharger-17/power_supply/battery/input_current_limited"
+command_current_limit="/sys/class/power_supply/battery/input_current_limited"
 command_current_limit_message="Current limited :"
-command_current_max="/sys/devices/soc/qpnp-smbcharger-17/power_supply/battery/input_current_max"
+command_current_max="/sys/class/power_supply/battery/input_current_max"
 command_current_max_message="Max current in microamps :"
 command_current_now="/sys/class/power_supply/battery/current_now"
 command_current_now_message="Current in microamps :"
-command_status="/sys/devices/soc/qpnp-smbcharger-17/power_supply/battery/status"
+command_status="/sys/class/power_supply/battery/status"
 command_status_message="Battery status :"
 while :
 do
