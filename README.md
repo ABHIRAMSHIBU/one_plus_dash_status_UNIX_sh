@@ -1,4 +1,5 @@
-# one_plus_dash_status_UNIX_sh
+# One plus dash charger detector, live ampere monitor.
+App git - https://github.com/out386/DashChargeStatus
 This repository provides users with custom roms  to monitor dash charging.
 The app has been made... No need to use this script.
 
